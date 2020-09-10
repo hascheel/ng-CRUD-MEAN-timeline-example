@@ -1,5 +1,8 @@
 Tutorial: https://dzone.com/articles/tutorial-connect-your-angular-app-to-mysql
 
+Problem: Property 'initAuth' does not exist on type 'typeof OktaAuthModule'.
+Solution of the problem: Use Okta 2 instead of version 1 and use newer examples like: https://github.com/okta/samples-js-angular/tree/master/custom-login
+
 ## Prerequisition
 
 - A already installed MySQL or MariaDB database server.
