@@ -68,5 +68,9 @@ https://developer.okta.com/
 `npm install --save-exact ngx-timeline@5.0.0 @okta/okta-angular@1.2.1`
 
 ## Further Infos
+https://github.com/oktadeveloper/okta-angular-mysql-timeline-example
+
+https://github.com/holgerschmitz/angular_timeline
+
 https://developer.okta.com/blog/2019/05/13/angular-8-spring-boot-2
 
