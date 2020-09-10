@@ -54,7 +54,19 @@ ALTER USER 'hscheel_timeline_user'@'localhost' IDENTIFIED WITH mysql_native_pass
 
 Start nodejs server: `node timline-server\src\index.js`
 
-## Authentication With JWT
+`npm install --save-exact express-bearer-token@2.4.0 @okta/jwt-verifier@1.0.0`
+
+## Okta settings
 https://developer.okta.com/
 
-`npm install --save-exact express-bearer-token@2.4.0 @okta/jwt-verifier@1.0.0`
+![okta-single-page-app-settings.png](okta-single-page-app-settings.png)
+
+
+## The Timeline Angular Client
+`ng add ngx-bootstrap@5.1.0`
+
+`npm install --save-exact ngx-timeline@5.0.0 @okta/okta-angular@1.2.1`
+
+## Further Infos
+https://developer.okta.com/blog/2019/05/13/angular-8-spring-boot-2
+
