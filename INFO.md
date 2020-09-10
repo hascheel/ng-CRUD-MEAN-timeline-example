@@ -13,7 +13,7 @@ Fix and Solution of the problem: Use Okta 2 instead of version 1 and use newer e
 ## Create database
 
 Login into database:
-`$ mysql -u root`
+`$ mysql -h localhost -u root -p`
 
 ~~~
 create database hscheel_timeline;
@@ -41,4 +41,20 @@ quit
 
 `npm init`
 
+`npm install --save-exact express@4.17.1 cors@2.8.5 mysql@2.17.1`
+
+or
+
 `npm install --save-exact express cors mysql`
+
+Fix for error: "Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol":
+~~~
+ALTER USER 'hscheel_timeline_user'@'localhost' IDENTIFIED WITH mysql_native_password BY 'hscheel_timeline_user_password';
+~~~
+
+Start nodejs server: `node timline-server\src\index.js`
+
+## Authentication With JWT
+https://developer.okta.com/
+
+`npm install --save-exact express-bearer-token@2.4.0 @okta/jwt-verifier@1.0.0`
