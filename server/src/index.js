@@ -7,9 +7,9 @@ const mysql = require('mysql');
 const events = require('./events');
 const connection = mysql.createConnection({
     host: 'localhost',
-    user: 'hscheel_timeline_user',
-    password: 'hscheel_timeline_user_password',
-    database: 'hscheel_timeline'
+    user: 'timeline_user',
+    password: 'timeline_user_password',
+    database: 'timeline'
 });
 connection.connect();
 const port = process.env.PORT || 8080;

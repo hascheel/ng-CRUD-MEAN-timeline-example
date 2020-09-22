@@ -1,8 +1,8 @@
-CREATE DATABASE  IF NOT EXISTS `hscheel_timeline` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `hscheel_timeline`;
+CREATE DATABASE  IF NOT EXISTS `timeline` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `timeline`;
 -- MySQL dump 10.13  Distrib 8.0.21, for Win64 (x86_64)
 --
--- Host: 127.0.0.1    Database: hscheel_timeline
+-- Host: 127.0.0.1    Database: timeline
 -- ------------------------------------------------------
 -- Server version	8.0.21
 
