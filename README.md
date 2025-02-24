@@ -1,7 +1,6 @@
 # NgCRUDMEANTimeline
 
-An example of a timeline app build with Angular, a REST-API and a JWT authentication system using Okta.com as an authentication service. The app was build with the help of this tutorial at: [https://dzone.com/articles/tutorial-connect-your-angular-app-to-mysql](https://dzone.com/articles/tutorial-connect-your-angular-app-to-mysql).
-
+An example of a timeline app build with Angular, a REST-API and a JWT authentication system using Okta.com as an authentication service.
 App preview:
 
 ![timeline app preview](docs/timeline-app-screenshot.png)
@@ -124,3 +123,5 @@ https://github.com/oktadeveloper/okta-angular-mysql-timeline-example
 https://github.com/holgerschmitz/angular_timeline
 
 https://developer.okta.com/blog/2019/05/13/angular-8-spring-boot-2
+
+The app was build with the help of this tutorial at: [https://dzone.com/articles/tutorial-connect-your-angular-app-to-mysql](https://dzone.com/articles/tutorial-connect-your-angular-app-to-mysql)
